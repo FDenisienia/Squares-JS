@@ -20,17 +20,7 @@ for (let index = 0; index < cuadraditos; index++) {
         square.style.transition = "5s"
     })
 
-    square.addEventListener('touchmove', () => {
-        square.style.background = colores[colorRandom]
-        square.style.transition = ".1s"
-    })
-
-    square.addEventListener('touchend', () => {
-        square.style.background = "grey"
-        square.style.transition = "5s"
-    })
 
     contenedor.appendChild(square)
-
 }
 
