@@ -36,3 +36,10 @@ body {
     background-color: blue;
     transition: 1s;
 }
+
+
+@media (max-width: 450px) {
+    body {
+        transform: scale(.8);
+    }
+}
